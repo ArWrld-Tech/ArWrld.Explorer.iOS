@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587C3F77EB224D407CCA39CE /* Pods_ArWrld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F81002443BF2B29EB803F6 /* Pods_ArWrld.framework */; };
+		7025BE6B1FE18ED4006AF974 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7025BE6A1FE18ED4006AF974 /* AppDelegate.swift */; };
+		7025BE721FE18ED5006AF974 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7025BE701FE18ED5006AF974 /* Main.storyboard */; };
+		7025BE741FE18ED5006AF974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7025BE731FE18ED5006AF974 /* Assets.xcassets */; };
+		7025BE771FE18ED5006AF974 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7025BE751FE18ED5006AF974 /* LaunchScreen.storyboard */; };
+		702A0E421FE60ED100765AA1 /* PlacesArFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A0E411FE60ED100765AA1 /* PlacesArFinderViewController.swift */; };
+		705F8F3920210BCD00DCCC49 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705F8F3820210BCD00DCCC49 /* MapViewController.swift */; };
+		706564C0202042B300803B20 /* ArWrldViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706564BF202042B300803B20 /* ArWrldViewer.swift */; };
+		70A3F4211FE5D4D700EDA959 /* TagNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3F4201FE5D4D700EDA959 /* TagNode.swift */; };
+		70A3F4231FE5D51300EDA959 /* ARObjectDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A3F4221FE5D51300EDA959 /* ARObjectDetectionViewController.swift */; };
+		70A3F42B1FE5D8B000EDA959 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 70A3F42A1FE5D8B000EDA959 /* Inceptionv3.mlmodel */; };
+		70CF3DA0202A45C900CEF223 /* ArMeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CF3D9F202A45C900CEF223 /* ArMeasureViewController.swift */; };
+		70CF3DA2202A471C00CEF223 /* SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CF3DA1202A471C00CEF223 /* SCNVector3.swift */; };
+		70CF3DA4202A47DC00CEF223 /* ARSCNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CF3DA3202A47DC00CEF223 /* ARSCNView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17F81002443BF2B29EB803F6 /* Pods_ArWrld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArWrld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7025BE671FE18ED4006AF974 /* ArWrld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArWrld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7025BE6A1FE18ED4006AF974 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7025BE711FE18ED5006AF974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7025BE731FE18ED5006AF974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7025BE761FE18ED5006AF974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7025BE781FE18ED5006AF974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		702A0E411FE60ED100765AA1 /* PlacesArFinderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesArFinderViewController.swift; sourceTree = "<group>"; };
+		705F8F3820210BCD00DCCC49 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		706564BF202042B300803B20 /* ArWrldViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArWrldViewer.swift; sourceTree = "<group>"; };
+		70A3F4201FE5D4D700EDA959 /* TagNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagNode.swift; sourceTree = "<group>"; };
+		70A3F4221FE5D51300EDA959 /* ARObjectDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARObjectDetectionViewController.swift; sourceTree = "<group>"; };
+		70A3F42A1FE5D8B000EDA959 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		70CF3D9F202A45C900CEF223 /* ArMeasureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArMeasureViewController.swift; sourceTree = "<group>"; };
+		70CF3DA1202A471C00CEF223 /* SCNVector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3.swift; sourceTree = "<group>"; };
+		70CF3DA3202A47DC00CEF223 /* ARSCNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSCNView.swift; sourceTree = "<group>"; };
+		8282493AAE82162E20F0E3C9 /* Pods-ArWrld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArWrld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArWrld/Pods-ArWrld.debug.xcconfig"; sourceTree = "<group>"; };
+		F36347089272D779FFE7896A /* Pods-ArWrld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArWrld.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArWrld/Pods-ArWrld.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7025BE641FE18ED4006AF974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587C3F77EB224D407CCA39CE /* Pods_ArWrld.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328785C83789B6BD8266FA11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8282493AAE82162E20F0E3C9 /* Pods-ArWrld.debug.xcconfig */,
+				F36347089272D779FFE7896A /* Pods-ArWrld.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7025BE5E1FE18ED4006AF974 = {
+			isa = PBXGroup;
+			children = (
+				70A3F42A1FE5D8B000EDA959 /* Inceptionv3.mlmodel */,
+				7025BE691FE18ED4006AF974 /* ArWrld */,
+				7025BE681FE18ED4006AF974 /* Products */,
+				328785C83789B6BD8266FA11 /* Pods */,
+				9CA9D15424013E72A17CB157 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7025BE681FE18ED4006AF974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7025BE671FE18ED4006AF974 /* ArWrld.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7025BE691FE18ED4006AF974 /* ArWrld */ = {
+			isa = PBXGroup;
+			children = (
+				7025BE6A1FE18ED4006AF974 /* AppDelegate.swift */,
+				7025BE701FE18ED5006AF974 /* Main.storyboard */,
+				7025BE731FE18ED5006AF974 /* Assets.xcassets */,
+				7025BE751FE18ED5006AF974 /* LaunchScreen.storyboard */,
+				7025BE781FE18ED5006AF974 /* Info.plist */,
+				70A3F4201FE5D4D700EDA959 /* TagNode.swift */,
+				70A3F4221FE5D51300EDA959 /* ARObjectDetectionViewController.swift */,
+				702A0E411FE60ED100765AA1 /* PlacesArFinderViewController.swift */,
+				706564BF202042B300803B20 /* ArWrldViewer.swift */,
+				705F8F3820210BCD00DCCC49 /* MapViewController.swift */,
+				70CF3D9F202A45C900CEF223 /* ArMeasureViewController.swift */,
+				70CF3DA1202A471C00CEF223 /* SCNVector3.swift */,
+				70CF3DA3202A47DC00CEF223 /* ARSCNView.swift */,
+			);
+			path = ArWrld;
+			sourceTree = "<group>";
+		};
+		9CA9D15424013E72A17CB157 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17F81002443BF2B29EB803F6 /* Pods_ArWrld.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7025BE661FE18ED4006AF974 /* ArWrld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7025BE7B1FE18ED5006AF974 /* Build configuration list for PBXNativeTarget "ArWrld" */;
+			buildPhases = (
+				32011AB504DFCF64D55FE0DD /* [CP] Check Pods Manifest.lock */,
+				7025BE631FE18ED4006AF974 /* Sources */,
+				7025BE641FE18ED4006AF974 /* Frameworks */,
+				7025BE651FE18ED4006AF974 /* Resources */,
+				4B561287B1F45F40823763ED /* [CP] Embed Pods Frameworks */,
+				E89FEAB476D0B4D41471284B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArWrld;
+			productName = ArWrld;
+			productReference = 7025BE671FE18ED4006AF974 /* ArWrld.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7025BE5F1FE18ED4006AF974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "David Hodge";
+				TargetAttributes = {
+					7025BE661FE18ED4006AF974 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7025BE621FE18ED4006AF974 /* Build configuration list for PBXProject "ArWrld" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7025BE5E1FE18ED4006AF974;
+			productRefGroup = 7025BE681FE18ED4006AF974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7025BE661FE18ED4006AF974 /* ArWrld */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7025BE651FE18ED4006AF974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7025BE771FE18ED5006AF974 /* LaunchScreen.storyboard in Resources */,
+				7025BE741FE18ED5006AF974 /* Assets.xcassets in Resources */,
+				7025BE721FE18ED5006AF974 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32011AB504DFCF64D55FE0DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArWrld-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B561287B1F45F40823763ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArWrld/Pods-ArWrld-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSPolly/AWSPolly.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Analytics/Analytics.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FoursquareAPIClient/FoursquareAPIClient.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/MapboxCoreNavigation/MapboxCoreNavigation.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxDirections.swift/MapboxDirections.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxMobileEvents/MapboxMobileEvents.framework",
+				"${BUILT_PRODUCTS_DIR}/MapboxNavigation/MapboxNavigation.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/Polyline/Polyline.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Solar/Solar.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Turf/Turf.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSPolly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Analytics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FoursquareAPIClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxCoreNavigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxDirections.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxMobileEvents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapboxNavigation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Polyline.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Solar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Turf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArWrld/Pods-ArWrld-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E89FEAB476D0B4D41471284B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ArWrld/Pods-ArWrld-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArWrld/Pods-ArWrld-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7025BE631FE18ED4006AF974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A3F42B1FE5D8B000EDA959 /* Inceptionv3.mlmodel in Sources */,
+				7025BE6B1FE18ED4006AF974 /* AppDelegate.swift in Sources */,
+				70CF3DA4202A47DC00CEF223 /* ARSCNView.swift in Sources */,
+				706564C0202042B300803B20 /* ArWrldViewer.swift in Sources */,
+				705F8F3920210BCD00DCCC49 /* MapViewController.swift in Sources */,
+				70CF3DA0202A45C900CEF223 /* ArMeasureViewController.swift in Sources */,
+				70A3F4211FE5D4D700EDA959 /* TagNode.swift in Sources */,
+				70A3F4231FE5D51300EDA959 /* ARObjectDetectionViewController.swift in Sources */,
+				702A0E421FE60ED100765AA1 /* PlacesArFinderViewController.swift in Sources */,
+				70CF3DA2202A471C00CEF223 /* SCNVector3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7025BE701FE18ED5006AF974 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7025BE711FE18ED5006AF974 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7025BE751FE18ED5006AF974 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7025BE761FE18ED5006AF974 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7025BE791FE18ED5006AF974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7025BE7A1FE18ED5006AF974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7025BE7C1FE18ED5006AF974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8282493AAE82162E20F0E3C9 /* Pods-ArWrld.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C8GE8GTUX;
+				INFOPLIST_FILE = ArWrld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arwrld.explorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7025BE7D1FE18ED5006AF974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36347089272D779FFE7896A /* Pods-ArWrld.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C8GE8GTUX;
+				INFOPLIST_FILE = ArWrld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.arwrld.explorer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7025BE621FE18ED4006AF974 /* Build configuration list for PBXProject "ArWrld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7025BE791FE18ED5006AF974 /* Debug */,
+				7025BE7A1FE18ED5006AF974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7025BE7B1FE18ED5006AF974 /* Build configuration list for PBXNativeTarget "ArWrld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7025BE7C1FE18ED5006AF974 /* Debug */,
+				7025BE7D1FE18ED5006AF974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7025BE5F1FE18ED4006AF974 /* Project object */;
+}

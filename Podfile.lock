@@ -1,0 +1,186 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Analytics (3.6.9)
+  - ARCL (1.0.1)
+  - AWSCore (2.6.11)
+  - AWSPolly (2.6.11):
+    - AWSCore (= 2.6.11)
+  - Bolts/Tasks (1.9.0)
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - Fabric (1.7.2)
+  - Firebase/Core (4.8.2):
+    - FirebaseAnalytics (= 4.0.9)
+    - FirebaseCore (= 4.0.14)
+  - Firebase/Crash (4.8.2):
+    - Firebase/Core
+    - FirebaseCrash (= 2.0.2)
+  - Firebase/Performance (4.8.2):
+    - Firebase/Core
+    - FirebasePerformance (= 1.1.1)
+  - FirebaseAnalytics (4.0.9):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - nanopb (~> 0.3)
+  - FirebaseCore (4.0.14):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCrash (2.0.2):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseInstanceID (2.0.8):
+    - FirebaseCore (~> 4.0)
+  - FirebasePerformance (1.1.1):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - FirebaseSwizzlingUtilities (~> 1.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.1)
+  - FirebaseSwizzlingUtilities (1.0.0)
+  - FoursquareAPIClient (4.0.1)
+  - Google (2.0.4):
+    - Google/Core (= 2.0.4)
+  - Google/Core (2.0.4):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - GoogleAnalytics (3.17.0)
+  - GoogleInterchangeUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleNetworkingUtilities (1.2.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GoogleSymbolUtilities (1.1.2)
+  - GoogleToolboxForMac/Defines (2.1.3)
+  - GoogleToolboxForMac/Logger (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleToolboxForMac/NSData+zlib (2.1.3):
+    - GoogleToolboxForMac/Defines (= 2.1.3)
+  - GoogleUtilities (1.3.2):
+    - GoogleSymbolUtilities (~> 1.1)
+  - GTMSessionFetcher/Core (1.1.12)
+  - Kingfisher (4.6.1)
+  - Mapbox-iOS-SDK (3.6.4)
+  - MapboxCoreNavigation (0.13.0):
+    - MapboxDirections.swift (~> 0.16.0)
+    - MapboxMobileEvents (~> 0.2)
+    - Turf (~> 0.0.4)
+  - MapboxDirections.swift (0.16.0):
+    - Polyline (~> 4.2)
+  - MapboxMobileEvents (0.2.10)
+  - MapboxNavigation (0.13.0):
+    - AWSPolly (~> 2.6)
+    - Mapbox-iOS-SDK (~> 3.6)
+    - MapboxCoreNavigation (= 0.13.0)
+    - SDWebImage (~> 4.1)
+    - Solar (~> 2.1)
+    - Turf (~> 0.0.4)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - Nuke (5.2)
+  - OneSignal (2.6.2)
+  - Parse (1.16.0):
+    - Parse/Core (= 1.16.0)
+  - Parse/Core (1.16.0):
+    - Bolts/Tasks (~> 1.9)
+  - Polyline (4.2.0)
+  - Protobuf (3.5.0)
+  - Reachability (3.2)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - Solar (2.1.0)
+  - SwiftyJSON (4.0.0)
+  - Turf (0.0.4)
+  - TwitterCore (3.1.0)
+  - TwitterKit (3.3.0):
+    - TwitterCore (>= 3.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Analytics (~> 3.0)
+  - ARCL (from `https://github.com/ProjectDent/ARKit-CoreLocation.git`, commit `8f73aeaebe2cc8ab489c0a2d1a77e6a67665438c`)
+  - Crashlytics
+  - Fabric
+  - Firebase/Core
+  - Firebase/Crash
+  - Firebase/Performance
+  - FoursquareAPIClient
+  - Google
+  - GoogleAnalytics
+  - Kingfisher (~> 4.0)
+  - Mapbox-iOS-SDK (~> 3.6.4)
+  - MapboxNavigation (~> 0.9)
+  - Nuke (~> 5.0)
+  - OneSignal
+  - Parse
+  - Reachability (~> 3.2)
+  - SwiftyJSON
+  - TwitterKit
+
+EXTERNAL SOURCES:
+  ARCL:
+    :commit: 8f73aeaebe2cc8ab489c0a2d1a77e6a67665438c
+    :git: https://github.com/ProjectDent/ARKit-CoreLocation.git
+
+CHECKOUT OPTIONS:
+  ARCL:
+    :commit: 8f73aeaebe2cc8ab489c0a2d1a77e6a67665438c
+    :git: https://github.com/ProjectDent/ARKit-CoreLocation.git
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Analytics: 6541ce337e99d9f7a2240a8b3953940a7be5f998
+  ARCL: 9d0035b0fa3f2c41936334d50a49b563c2671000
+  AWSCore: a461695bf302a32a366768bf36056be3a2c87d8d
+  AWSPolly: fa1600710f3eb20624caeb1d0566d77a44ae4902
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
+  Firebase: 7d3b8cd837ad9fcd391657734c0d56dab8e9a5a3
+  FirebaseAnalytics: 388b630c15713f5dbf364071f5f3d6077fb52f4e
+  FirebaseCore: 2e0b98fb2d64ca8140136beff15772bdd14d2dd7
+  FirebaseCrash: cded0fc566c03651aea606a101bc156085f333ca
+  FirebaseInstanceID: 81df5805a08001e69138664bdd02c6719a9ac80f
+  FirebasePerformance: 4e1f8091e400eaf88505234caef5718313653709
+  FirebaseSwizzlingUtilities: f1c49a5a372ac852c853722a5891a0a5e2344a6c
+  FoursquareAPIClient: 12fbe6aa7b11485ee8314c7590458b6baa226f4e
+  Google: d536877ec602555b755cc28ce6fed104825c693c
+  GoogleAnalytics: f42cc53a87a51fe94334821868d9c8481ff47a7b
+  GoogleInterchangeUtilities: d5bc4d88d5b661ab72f9d70c58d02ca8c27ad1f7
+  GoogleNetworkingUtilities: 3edd3a8161347494f2da60ea0deddc8a472d94cb
+  GoogleSymbolUtilities: 631ee17048aa5e9ab133470d768ea997a5ef9b96
+  GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
+  GoogleUtilities: 8bbc733218aad26306f9d4a253823986110e3358
+  GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  Mapbox-iOS-SDK: 47847dd44285477e0dfffd0130f65c8a52823ada
+  MapboxCoreNavigation: 3c964ad1854179dc619b4cceb5f85f428b68fe14
+  MapboxDirections.swift: 168cc83745b188d792c5482bfb0653c233d1455c
+  MapboxMobileEvents: 9e48b59d0eed04508595dcb04a77b7632e1c3054
+  MapboxNavigation: 81502953735c3860cefa8fa645c5870825bed158
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  Nuke: 5f420c4637415f979c83afb35e73176dd03232d9
+  OneSignal: 95127bce89b9e495079e7205e3d47c88590b5750
+  Parse: 5b36dc2c2f0a2fd82a257ae018bc3d68cf2c24e7
+  Polyline: 3d69f75bb136357e27291d439d0436c6ebda57a4
+  Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  Turf: 6c169618fa671e3f8a7b764b5b3332053ad6110e
+  TwitterCore: 644d59e75abccb26cf0a9050d2c4dea0e5412241
+  TwitterKit: a2e60ddcedbf54091eac6f27685ca7a87681e1d7
+
+PODFILE CHECKSUM: a59caa1e390fa57b63a5933a260c06a1f8a77c14
+
+COCOAPODS: 1.4.0
